@@ -1,0 +1,37 @@
+*, ::before, ::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;500;700&family=Noto+Sans+Mono:wght@300;500;700&family=Open+Sans:ital,wght@0,500;0,700;1,300&family=Orbitron:wght@400;500;700&family=Poppins:wght@500;700&family=Roboto:ital,wght@0,500;0,700;1,300&display=swap');
+$inter: 'Inter Tight', sans-serif;
+$noto: 'Noto Sans Mono', monospace;
+$sans: 'Open Sans', sans-serif;
+$poppins: 'Poppins', sans-serif;
+$roboto: 'Roboto', sans-serif;
+$orbiton: 'Orbitron', sans-serif;
+$htmlClr: #e24d26;
+$cssClr: #4667b0;
+$jsClr: #f0dc4f;
+$phpClr: #474a8a;
+$msqlClr: #017590;
+$pyClr: #306a99;
+$cClr: #51b4e5;
+$cppClr: #4176bb;
+$csClr: #2d2164;
+
+
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+@import "scss/home-header";
+
+@import "scss/home-main_section"
